@@ -28,7 +28,7 @@ return the correct 4XX error on failure.
 Parameter validation
 ````````````````````
 
-By default, Connexion checks all request for any parameters defined in your specification and
+By default, Connexion checks all requests for any parameters defined in your specification and
 validates them against their definition. This includes their schema (``type``, ``format``,
 ``range``, ...) and whether or not they are required or whether they can be ``null``.
 
