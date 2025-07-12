@@ -2,8 +2,7 @@ Lifespan
 ========
 
 You can register lifespan handlers to run code before the app starts, or after it shuts down.
-This is ideal for setting up and tearing down database connections or machine learning models, 
-for instance.
+This is ideal for setting up and tearing down database connections or machine learning models.
 
 
 .. tab-set::
