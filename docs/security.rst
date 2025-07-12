@@ -55,7 +55,7 @@ The token information is made available to your endpoint view functions via the
 
 .. note::
 
-    Note that you are responsible for validate any fields other than the scopes yourself.
+    Note that you are responsible for validating any fields other than the scopes yourself.
 
 .. _rfc7662: https://tools.ietf.org/html/rfc7662
 
