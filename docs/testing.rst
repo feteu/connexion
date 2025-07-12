@@ -20,7 +20,7 @@ Connexion application during tests.
             assert response.status_code == 200
 
 
-The passed-in keywords used to create a `Starlette` ``TestClient``, which is then returned.
+The passed-in keywords are used to create a `Starlette` ``TestClient``, which is then returned.
 
 For more information, please check the `Starlette documentation`_.
 
