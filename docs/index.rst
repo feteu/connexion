@@ -29,7 +29,7 @@ Based on your specification, Connexion provides the following functionality:
 * Response validation
 * A Swagger UI console with live documentation and 'try it out' feature
 
-Connexion also assists in writing your OpenAPI Specification and developing against it by providing a 
+Connexion also assists in writing your OpenAPI Specification and developing against it by providing a
 command-line interface for testing and mocking your specification.
 
 .. code-block:: bash
