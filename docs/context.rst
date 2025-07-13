@@ -12,7 +12,8 @@ You can access them by importing them from ``connexion.context``:
     from connexion import request  # alias for connexion.context.request
 
 The ``connexion.request`` is an alias for ``connexion.context.request``, providing a convenient way 
-to access the request object.
+to access the request object. You only need to use one of these imports to access the request 
+object, using both is not necessary.
 
 When trying to access these context variables outside of the request handling flow, or without 
 running the ``ContextMiddleware``, the following ``RuntimeError`` will be thrown:
